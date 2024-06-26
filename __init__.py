@@ -19,7 +19,7 @@ import custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.TuplesUsed.Condition
 
 
 NODE_CLASS_MAPPINGS = {
-    "Float": TypeNodes.FloatNode,                               # Return float Value
+    "DF_Float": TypeNodes.FloatNode,                               # Return float Value
     "Integer": TypeNodes.IntegerNode,                           # Return int Value
     "Text": TypeNodes.StringNode,                               # IDK where to use this... yet
     "Text box": TypeNodes.MultilineStringNode,                  # This too
