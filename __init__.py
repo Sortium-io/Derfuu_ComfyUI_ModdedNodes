@@ -13,6 +13,7 @@ from .pyscripts.Nodes.Functions import Converters as ConvNodes
 from .pyscripts.Nodes.Functions import GetSizes as GetSizes
 from .pyscripts.Nodes.Functions import Random as RandNodes
 from .pyscripts.Nodes.Functions import Strings as StringNodes
+from .pyscripts.Nodes.Functions import Tuples as TupleNodes
 
 from .pyscripts.Nodes.Math import SimpleMath as SMath
 from .pyscripts.Nodes.Math import Trigonometry as TMath
@@ -59,6 +60,10 @@ NODE_CLASS_MAPPINGS = {
     _n("Image_scale_by_ratio"): St_ImageNodes.ImageScale_Ratio,
     _n("Image_scale_to_side"): St_ImageNodes.ImageScale_Side,
     _n("Conditioning_area_scale_by_ratio"): St_CondNodes.ConditioningAreaScale_Ratio,
+    _n("Tuple"): TupleNodes.Tuple,
+    _n("Int2Tuple"): TupleNodes.Int2Tuple,
+    _n("Tuple_to_floats"): TupleNodes.Tuple2Float,
+    _n("Tuple_to_ints"): TupleNodes.Tuple2Int,
 }
 
 WEB_DIRECTORY = "./scripts"
